@@ -54,17 +54,19 @@ body {
     background-color: #ffffff;
     background-size: cover;
   }
-  
-  
+    
   header {
     padding: 20px 0;
-    
-    margin:auto;
+    position:fixed;
+    max-height: auto;
+    z-index:10;
+    display: block;
+    background-color: white;
   }
   
+
   header .row,
   footer .row {
-
     align-items: center;
   }
   
@@ -74,7 +76,6 @@ body {
   }
 
   nav {
-    
     justify-content: flex-end;
   }
 
@@ -93,7 +94,7 @@ body {
   .jumbotron {
     
     align-items: center;
-    background-size: cover;
+    
     background-color: #B85042;
     color: #E7E8D1;
     max-height: 200px;
@@ -130,6 +131,8 @@ body {
   }
   .content {
     overflow: scroll;
+    position:relative;
+    top:180px;
   
 
   }
