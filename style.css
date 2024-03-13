@@ -52,13 +52,15 @@ body {
     font-family: Roboto, sans-serif;
     color:#252b26;
     background-color: #ffffff;
-    background-size: cover;
+    
   }
     
   header {
     padding: 20px 0;
     position:fixed;
-    max-height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index:10;
     display: block;
     background-color: white;
@@ -131,7 +133,7 @@ body {
   }
   .content {
     overflow: scroll;
-    position:relative;
+    position: relative;
     top:180px;
   
 
@@ -139,8 +141,6 @@ body {
    section {
     margin: 5px;
    }
-
-  
   
   .grid-container {
     display: grid;
